@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anupam Pandey — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- top notice -->
+  <div class="notice">
+    <span>This version was created for a college project. Main portfolio →</span>
+    <a href="https://foliodeanupam.vercel.app" target="_blank">foliodeanupam.vercel.app</a>
+    <button id="closeNotice">×</button>
+  </div>
+
+  <!-- nav -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">Anupam<span>.</span></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- hero -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <h2>Hello, I'm <span>Anupam Pandey</span></h2>
+      <h3 class="typewriter">I'm a <span id="typed-text"></span></h3>
+      <p>Full-Stack & Mobile Developer building interactive, elegant digital experiences with React, Next.js, and Flutter.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m a full-stack developer and designer passionate about blending functionality with creativity. 
+        My focus lies in crafting fluid web and mobile experiences using <strong>React</strong>, <strong>Next.js</strong>, 
+        <strong>Firebase</strong>, and <strong>Flutter</strong>. I believe good code should feel natural, 
+        efficient, and a little artistic.
+      </p>
+      <p>
+        Whether it's a mobile game, a dynamic website, or an interactive AI project, I enjoy the challenge of
+        turning concepts into experiences that engage and inspire.
+      </p>
+    </div>
+  </section>
+
+  <!-- skills -->
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><h3>Frontend</h3><p>React, Next.js, TypeScript, Tailwind, Three.js</p></div>
+        <div class="skill-card"><h3>Mobile</h3><p>React Native, Flutter, Firebase, Ad Integrations</p></div>
+        <div class="skill-card"><h3>Backend</h3><p>Firebase, MongoDB, Node.js, REST APIs</p></div>
+        <div class="skill-card"><h3>Other</h3><p>Git, Responsive Design, Accessibility, UI/UX Thinking</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Guessagram</h3>
+            <p>A mobile word game with lifelines, rewarded ads & swipe gameplay.</p>
+            <div class="badges">
+              <span>React Native</span><span>Google Ads</span>
+            </div>
+            <a href="https://www.guessagram.xyz" target="_blank" class="view-btn">View Live</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Masala Corner Restro</h3>
+            <p>Indo-Chinese/Nepalese restaurant website built using React, Next.js & Firebase.</p>
+            <div class="badges">
+              <span>React</span><span>Next.js</span><span>Firebase</span>
+            </div>
+            <a href="https://www.hakkamasalahamilton.ca" target="_blank" class="view-btn">View Live</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>PlotTwist AI</h3>
+            <p>AI reading companion with GPT chats & Stripe sandbox subscriptions.</p>
+            <div class="badges">
+              <span>Next.js</span><span>OpenAI</span><span>Stripe Sandbox</span>
+            </div>
+            <a href="https://plottwist-ai.vercel.app" target="_blank" class="view-btn">View Live</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>BreezyBlog</h3>
+            <p>Personal blog platform with auth, markdown posts & modern dashboard.</p>
+            <div class="badges">
+              <span>Next.js</span><span>MongoDB</span>
+            </div>
+            <a href="https://breezyblog-five.vercel.app" target="_blank" class="view-btn">View Live</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Creative Projects</h3>
+            <p>3D experiments & shaders exploring geometry, light & motion.</p>
+            <div class="badges">
+              <span>Three.js</span><span>GLSL</span><span>WebGL</span>
+            </div>
+            <a href="https://creative-projects-by-anupam.vercel.app" target="_blank" class="view-btn">View Live</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- resume -->
+  <section id="resume" class="section alt-bg">
+    <div class="container">
+      <h2>Resume</h2>
+      <p>You can download my resume below:</p>
+      <a href="resume.pdf" class="btn" download>Download Resume (PDF)</a>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Let's collaborate or discuss ideas — I’d love to connect.</p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:anupam.pandey@mohawkcollege.ca">anupam.pandey@mohawkcollege.ca</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/thebreezyanupam" target="_blank">github.com/thebreezyanupam</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anupam-pandey-162029229/" target="_blank">linkedin.com/in/anupam-pandey-162029229</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer><p>© <span id="year"></span> Anupam Pandey</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
