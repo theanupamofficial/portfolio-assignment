@@ -27,7 +27,7 @@ This site was built using **HTML, CSS, and JavaScript** and hosted on **GitHub P
 
 ### Live Website
 You can view it here once published:  
-[https://yourusername.github.io](https://yourusername.github.io)
+[https://theanupamofficial.github.io/portfolio-assignment/](https://theanupamofficial.github.io/portfolio-assignment/)
 
 ---
 
